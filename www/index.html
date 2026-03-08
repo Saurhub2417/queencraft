@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QueenCraft - N Queen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- TOP GAME DASHBOARD -->
+    <div class="game-dashboard">
+        <div class="dashboard-item">
+            ⏱ Time: <span id="time">0 s</span>
+        </div>
+
+        <div class="dashboard-item">
+            ⚔ Conflicts: <span id="conflicts">0</span>
+        </div>
+
+        <div class="dashboard-item">
+             Status: <span id="status">Ready</span>
+        </div>
+    </div>
+
+    <h1 style="font-style: oblique; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">♛ QueenCraft</h1>
+
+    <!-- SETTINGS DASHBOARD -->
+    <div class="settings-dashboard">
+        <div class="setting-box">
+            <label>N Value</label>
+            <input type="number" id="nValue" min="4" value="4">
+        </div>
+
+        <div class="setting-box">
+            <label>Mode</label>
+            <select id="mode">
+                <option value="manual">Manual</option>
+                <option value="ai">AI Solver</option>
+            </select>
+        </div>
+    </div>
+    <div class="buttons">
+        <button onclick="startGame()">Start</button>
+        <button onclick="submitSolution()">Submit</button>
+        <button onclick="resetBoard()">Reset</button>
+        <button id="themeBtn" onclick="toggleTheme()">Theme</button>
+    </div>
+    <canvas id="boardCanvas"></canvas>
+
+</div>
+<div id="popup" class="popup hidden">
+    <div class="popup-content">
+        <h2 id="popupMessage"></h2>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
