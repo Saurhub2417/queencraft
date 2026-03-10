@@ -23,15 +23,15 @@ Live Features
 
  # Main Interface
 
-![QueenCraft Interface](https://drive.google.com/file/d/1hM1dDaFREMef15_HOMRze2XWzs2wBYd8/view?usp=sharing)
+https://drive.google.com/file/d/1hM1dDaFREMef15_HOMRze2XWzs2wBYd8/view?usp=sharing
 
  # AI Solver in Action
 
-![AI Solver](https://drive.google.com/file/d/1SZS1lRO1r01w8JQjlTASBTPox5JUbT1d/view?usp=sharing)
+https://drive.google.com/file/d/1SZS1lRO1r01w8JQjlTASBTPox5JUbT1d/view?usp=sharing
 
  # Light Theme
 
-![Light Theme](https://drive.google.com/file/d/1SZS1lRO1r01w8JQjlTASBTPox5JUbT1d/view?usp=sharing)
+https://drive.google.com/file/d/1SZS1lRO1r01w8JQjlTASBTPox5JUbT1d/view?usp=sharing
 
  Problem Statement
 
